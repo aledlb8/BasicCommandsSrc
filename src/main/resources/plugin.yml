@@ -1,0 +1,53 @@
+name: BasicCommands
+version: 1.0
+main: vb.$basiccommands.PluginMain
+author: aledlb8
+description: Good way to start your minecraft server
+api-version: 1.13
+commands:
+  basiccommands-help:
+    description: Help command
+    aliases: [bc-help, basicommands-help, basic-help]
+  gmc:
+    description: gamemode creative
+    aliases: [gm1]
+    permission: gamemode.basic
+    permission-message: You don't have permission to execute this command
+  gms:
+    description: gamemode survival
+    aliases: [gm0]
+    permission: gamemode.basic
+    permission-message: You don't have permission to execute this command
+  gma:
+    description: gamemode adventure
+    aliases: [gm2]
+    permission: gamemode.basic
+    permission-message: You don't have permission to execute this command
+  gmsp:
+    description: gamemode spectator
+    aliases: [gm3]
+    permission: gamemode.basic
+    permission-message: You don't have permission to execute this command
+  fly:
+    description: ability to fly
+    permission: fly.basic
+    permission-message: You don't have permission to execute this command
+  unfly:
+    description: ability to unfly
+    permission: fly.basic
+    permission-message: You don't have permission to execute this command
+  clear:
+    description: clear your inventory
+    aliases: [ci]
+    permission: clear.basic
+    permission-message: You don't have permission to execute this command
+  basiccommands:
+    description: Main command
+    aliases: [bc, basicommands, basic]
+  spawn:
+    description: go to spawn
+    aliases: [lobby]
+  heal:
+    description: heal your health
+    permission: heal.basic
+    permission-message: You don't have permission to execute this command
